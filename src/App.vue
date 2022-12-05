@@ -10,14 +10,14 @@
     </nav>
 
     <div class="task-list" v-if="filter === 'all'">
-      <p>All Tasks:</p>
+      <p>You have {{ taskStore.totalCount }} tasks left to do</p>
       <div v-for="task in taskStore.tasks">
         <TaskDetails :task="task" />
       </div>
     </div>
-    <div class="task-list">
-      <p>Fav Tasks:</p>
-      <div v-for="task in taskStore.favs" v-if="filter === 'favs'">
+    <div class="task-list" v-if="filter === 'favs'">
+      <p>You have {{ taskStore.favCount }} tasks left to do</p>
+      <div v-for="task in taskStore.favs">
         <TaskDetails :task="task" />
       </div>
     </div>

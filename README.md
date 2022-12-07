@@ -27,3 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
+Preview:
+
+
+https://user-images.githubusercontent.com/97323191/206059209-45336462-af84-445e-9feb-6a2c2289346d.mov
+

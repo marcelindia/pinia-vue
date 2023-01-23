@@ -13,6 +13,7 @@
       <button @click="filter = 'all'">All Tasks</button>
       <button @click="filter = 'favs'">Fav Tasks</button>
     </nav>
+    <div class="loading" v-if="taskStore.loading">Loading tasks...</div>
 
     <div class="task-list" v-if="filter === 'all'">
       <p>You have {{ taskStore.totalCount }} tasks left to do</p>
@@ -40,6 +41,8 @@ export default {
   components: { TaskDetails, TaskForm },
   setup() {
     const taskStore = useTaskStore();
+
+    taskStore.getTasks();
 
     const filter = ref("all");
     return { taskStore, filter };

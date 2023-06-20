@@ -2,7 +2,7 @@
   <main>
     <header>
       <img src="./assets/pinia-logo.svg" alt="pinia logo" />
-      <h1>Pinia Tasks</h1>
+      <h1>Weekly Tasks</h1>
     </header>
 
     <div class="new-task-form">
@@ -13,7 +13,7 @@
       <button @click="filter = 'all'">All Tasks</button>
       <button @click="filter = 'favs'">Fav Tasks</button>
     </nav>
-    <div class="loading" v-if="loading">Loading tasks...</div>
+    <!-- <div class="loading" v-if="loading">Loading tasks...</div> -->
 
     <div class="task-list" v-if="filter === 'all'">
       <p>You have {{ totalCount }} tasks left to do</p>

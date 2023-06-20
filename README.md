@@ -30,5 +30,8 @@ npm run build
 Preview:
 
 
-https://user-images.githubusercontent.com/97323191/206059209-45336462-af84-445e-9feb-6a2c2289346d.mov
+https://github.com/marcelindia/pinia-vue/assets/97323191/2e3c9539-b31f-4fbe-98b5-2842b3d54500
+
+
+
 

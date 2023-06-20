@@ -30,4 +30,13 @@ npm run build
 
 Preview:
 
+<<<<<<< HEAD
 https://github.com/marcelindia/pinia-vue/assets/97323191/2e3c9539-b31f-4fbe-98b5-2842b3d54500
+=======
+
+https://github.com/marcelindia/pinia-vue/assets/97323191/2e3c9539-b31f-4fbe-98b5-2842b3d54500
+
+
+
+
+>>>>>>> origin/main
